@@ -182,3 +182,70 @@ footer{
 footer p{
     text-align: center;
 }
+
+
+
+
+
+
+@media only screen and (max-width:688px) {
+
+    header{
+        height: 100%;
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .menu ul{
+        flex-direction: column;
+        margin: 0;
+    }
+    .headline{
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .button{
+        margin-bottom: 20px;
+    }
+    .headline-text h1{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0;
+        font-size: 36px;
+        
+    }
+    .headline-image, .headline-text{
+       padding: 0 20px;
+    }
+ .headline-image img{
+    width: 100%;
+    height: 100%;
+     
+ }
+ .our-players{
+     margin: 20px 20px;
+     padding: ;
+ }
+ .players{
+    grid-template-columns: 1fr;
+}
+.copa-highlights{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.high-heading{
+    text-align: center;
+}
+.high-heading,.high-image img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    margin-top: 30px;
+}
+.icon li{
+}
+}
